@@ -1,7 +1,6 @@
 
 import { useState } from "react";
-
-import { Modal, Placeholder, List, Input } from "@telegram-apps/telegram-ui";
+import { Modal, Input } from "@telegram-apps/telegram-ui";
 import * as DialogPrimitive from '@radix-ui/react-dialog'
 import {Multiselect} from "@telegram-apps/telegram-ui";
 
@@ -22,9 +21,7 @@ export default function MultiSel() {
           console.log('Select', selected);
       };
 
-
-    
-    return (
+      return (
         <Modal
       
             open={true}
